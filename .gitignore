@@ -21,3 +21,6 @@ venv/
 # Ignore user-specific files
 .DS_Store
 Thumbs.db
+
+#Production
+dist
