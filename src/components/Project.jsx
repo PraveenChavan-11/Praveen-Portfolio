@@ -1,28 +1,31 @@
 import { useState } from "react";
+import tilesImage from '../assets/tiles.png';
+import travelImage from '../assets/travel.png';
+import expenseImage from '../assets/expense.png';
 
 const Portfolio = () => {
   const [projects] = useState([
     {
       id: 1,
       name: "Tiles Shop Management System",
-      image: "/src/assets/tiles.png",
-      link: "https://github.com/PraveenChavan-11/Tiles-Shop-Management-System", // Replace with your project link
+      image: tilesImage,
+      link: "https://github.com/PraveenChavan-11/Tiles-Shop-Management-System",
       languages: ["C#", ".NET Framework"],
       techUsed: ["Microsoft SQL"],
     },
     {
       id: 2,
       name: "Travel Blog",
-      image: "/src/assets/travel.png",
-      link: "https://github.com/PraveenChavan-11/TravelBlog", // Replace with your project link
+      image: travelImage,
+      link: "https://github.com/PraveenChavan-11/TravelBlog",
       languages: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"],
       techUsed: ["ProcessWire", "MySQL"],
     },
     {
       id: 3,
       name: "Expense Tracker",
-      image: "/src/assets/expense.png",
-      link: "https://github.com/PraveenChavan-11/ExpenseTracker", // Replace with your project link
+      image: expenseImage,
+      link: "https://github.com/PraveenChavan-11/ExpenseTracker",
       languages: ["MERN Stack"],
       techUsed: ["MongoDB", "Express.js", "React", "Node.js"],
     },

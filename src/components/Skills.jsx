@@ -1,39 +1,46 @@
+import htmlImage from '../assets/html.png';
+import cssImage from '../assets/css.png';
+import jsImage from '../assets/js.png';
+import phpImage from '../assets/php.png';
+import reactImage from '../assets/react.png';
+import processWireImage from '../assets/processwire.png';
+
 const skills = [
   {
-      id: 1,
-      name: "HTML",
-      image: "/src/assets/html.png", // Replace with actual image path
+    id: 1,
+    name: 'HTML',
+    image: htmlImage,
   },
   {
-      id: 2,
-      name: "CSS",
-      image: "/src/assets/css.png", // Replace with actual image path
+    id: 2,
+    name: 'CSS',
+    image: cssImage,
   },
   {
-      id: 3,
-      name: "JavaScript",
-      image: "/src/assets/js.png", // Replace with actual image path
+    id: 3,
+    name: 'JavaScript',
+    image: jsImage,
   },
   {
-      id: 4,
-      name: "PHP",
-      image: "/src/assets/php.png", // Replace with actual image path
+    id: 4,
+    name: 'PHP',
+    image: phpImage,
   },
   {
     id: 5,
-    name: "React",
-    image: "/src/assets/react.png", // Replace with actual image path
-},
-{
-  id: 6,
-  name: "ReactNative",
-  image: "/src/assets/react.png", // Replace with actual image path
-},
-{
-  id: 7,
-  name: "ProcessWire [CMS]",
-  image: "/src/assets/processwire.png", // Replace with actual image path
-},
+    name: 'React',
+    image: reactImage,
+  },
+  {
+    id: 6,
+    name: 'ReactNative',
+    image: reactImage,
+  },
+  {
+    id: 7,
+    name: 'ProcessWire [CMS]',
+    image: processWireImage,
+  },
   // Add more skills as needed
 ];
 
