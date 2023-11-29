@@ -193,7 +193,7 @@ const Navbar = () => {
               Experience
             </Link>
             {/* Resume link */}
-            <a href="public/praveen Chavan - Resume.pdf" download="Praveen Chavan-resume.pdf" className="download lg:hidden block hover:text-blue-400 py-2 px-4 cursor-pointer">
+            <a href="public\Praveen Chavan - Resume.pdf" download="Praveen Chavan-resume.pdf" className="download lg:hidden block hover:text-blue-400 py-2 px-4 cursor-pointer">
               <span>Resume</span>
             </a>
           </div>
