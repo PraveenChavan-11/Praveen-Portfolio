@@ -3,6 +3,7 @@ import { HiMenu } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { FaDownload } from "react-icons/fa";
 import logo from "../assets/logo.png";
+import resume from "../assets/Praveen Chavan - Resume.pdf";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -111,7 +112,7 @@ const Navbar = () => {
           {/* Download icon for larger screens */}
           {!isMenuOpen && (
             <div className="hidden lg:block download">
-              <a href="public\Praveen Chavan - Resume.pdf" download="Praveen Chavan-resume.pdf">
+              <a href={resume} download="Praveen Chavan-resume.pdf">
                 <FaDownload className="cursor-pointer text-3xl md:text-2xl sm:text-xl hover:-translate-y-3 transition-all duration-300" />
               </a>
             </div>
@@ -193,7 +194,7 @@ const Navbar = () => {
               Experience
             </Link>
             {/* Resume link */}
-            <a href="public\Praveen Chavan - Resume.pdf" download="Praveen Chavan-resume.pdf" className="download lg:hidden block hover:text-blue-400 py-2 px-4 cursor-pointer">
+            <a href={resume} download="Praveen Chavan-resume.pdf" className="download lg:hidden block hover:text-blue-400 py-2 px-4 cursor-pointer">
               <span>Resume</span>
             </a>
           </div>
