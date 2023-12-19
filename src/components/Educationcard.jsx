@@ -5,7 +5,7 @@ const education = [
     {
         id: 1,
         degree: "Master of Computer Applications",
-        institution: "Chh. Shahu Institute of Business Education and Research, Kolhapur",
+        institution: "Chh. Shahu Institute of Business Education and Research, Kolhapur.",
         year: "2023",
     },
     {
@@ -17,13 +17,13 @@ const education = [
     {
         id: 3,
         degree: "Higher Secondary Education",
-        institution: "Padmabhushan Dr. Vasantraodada Patil Mahavidyalaya, Tasgaon",
+        institution: "Padmabhushan Dr. Vasantraodada Patil Mahavidyalaya, Tasgaon.",
         year: "2018",
     },
     {
         id: 4,
         degree: "Secondary School Certificate",
-        institution: "Anandsagar Public School, Tasgaon",
+        institution: "Anandsagar Public School, Tasgaon.",
         year: "2016",
     },
 ];
@@ -39,7 +39,7 @@ const EducationSection = () => {
           <div className="ml-4">
             <p className="text-lg font-bold">{edu.degree}</p>
             <p className="text-sm text-600 justify">{edu.institution}</p>
-            <p className="text-sm text-600">{`Year: ${edu.year}`}</p>
+            <p className="text-sm text-600">{`Passout Year: ${edu.year}`}</p>
           </div>
         </div>
       ))}
