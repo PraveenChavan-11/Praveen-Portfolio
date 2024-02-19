@@ -16,5 +16,14 @@ Welcome to Praveen's Portfolio! This portfolio showcases my skills in React deve
 
 🔍 Project Showcase: Explore various projects, skills, and experiences in the field of web development, highlighting React's versatility.
 
-**Live Demo**
-To view the portfolio, https://praveenchavan-11.github.io/Praveen-Portfolio/.
+**Screenshots**
+
+![Screenshot (1)](https://github.com/PraveenChavan-11/Praveen-Portfolio/assets/142572979/bb162449-818d-42ff-9588-937990bed2a2)
+![Screenshot (2)](https://github.com/PraveenChavan-11/Praveen-Portfolio/assets/142572979/2e28d4ce-d38b-4e47-8965-324e6167ba19)
+![Screenshot (3)](https://github.com/PraveenChavan-11/Praveen-Portfolio/assets/142572979/e9a5d25e-e754-4651-b7c8-bdc0ba164f68)
+![Screenshot (4)](https://github.com/PraveenChavan-11/Praveen-Portfolio/assets/142572979/1f2dcfc1-f8a8-4fa6-a6bd-9b9508349b7a)
+![Screenshot (5)](https://github.com/PraveenChavan-11/Praveen-Portfolio/assets/142572979/dce5bf5c-6183-432a-ac9e-54d832cb4110)
+
+
+
+
