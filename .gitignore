@@ -1,0 +1,26 @@
+# Ignore compiled files
+*.o
+*.out
+*.class
+
+# Ignore dependencies
+node_modules/
+venv/
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+*.swp
+
+# Ignore IDE/Editor specific files
+.idea/
+.vscode/
+
+# Ignore user-specific files
+.DS_Store
+Thumbs.db
+
+#Production
+dist
